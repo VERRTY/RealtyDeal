@@ -1,0 +1,17 @@
+.LoginForm {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	color: var(--inverted-bg-color);
+}
+
+.input {
+	margin-top: 10px;
+	// color: var(--material-theme-sys-outline);
+}
+
+.loginBtn {
+	width: 200px;
+	margin-top: 15px;
+	margin-left: auto;
+}

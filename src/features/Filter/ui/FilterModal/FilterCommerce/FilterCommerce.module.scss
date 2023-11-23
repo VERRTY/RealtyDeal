@@ -1,0 +1,93 @@
+.filterCommerce {
+	padding-top: 23px;
+	margin-bottom: 36px;
+	background-color: var(--bg-color);
+	width: 100%;
+
+	.filterCommerceTitleSquare {
+		color: var(--inverted-bg-color);
+		font-size: 22px;
+		font-weight: 300;
+		line-height: 32px;
+		width: 220px;
+		text-align: start;
+	}
+
+	.filterCommerceInputItems {
+		border: 2px solid var(--material-theme-sys-primary);
+		border-radius: 8px 8px 8px 8px;
+		margin-right: 8px;
+
+		.filterCommerceInput:nth-child(1) {
+			border-right: 2px solid var(--material-theme-sys-primary);
+		}
+
+		.filterCommerceInput {
+			padding: 10px 11px;
+			background-color: transparent;
+			color: var(--inverted-bg-color);
+			width: 126px;
+
+			font-size: 12px;
+			font-weight: 400;
+			line-height: 16px;
+		}
+		.filterCommerceInput2 {
+			width: 173px;
+		}
+	}
+
+	.filterCommerceTitle {
+		color: var(--inverted-bg-color);
+		font-size: 28px;
+		font-weight: 500;
+		line-height: 44px;
+		margin-bottom: 17px;
+		display: flex;
+		align-items: center;
+		gap: 12px;
+	}
+	.filterCommerceWrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+
+		.filterCommerceSquare {
+			display: flex;
+			align-items: center;
+
+			.filterCommerceCheckbox {
+				display: flex;
+				gap: 15px;
+				margin-left: 32px;
+				color: var(--material-theme-sys-primary);
+
+				input {
+					accent-color: #006d39;
+					margin-right: 15px;
+					border: none;
+				}
+			}
+		}
+		.filterCommerceItemBlog {
+			display: flex;
+			align-items: center;
+
+			.filterCommerceGroupBtn {
+				display: flex;
+				align-items: center;
+				gap: 8px;
+
+				.filterCommerceBtn {
+					padding: 10px 24px;
+					border-radius: 20px;
+
+					color: var(--material-theme-sys-primary);
+					text-align: center;
+					font-size: 14px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}

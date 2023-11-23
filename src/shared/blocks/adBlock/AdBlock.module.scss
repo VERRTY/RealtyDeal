@@ -1,0 +1,40 @@
+.AdBlock {
+	width: 221px;
+	height: 788px;
+	background-image: url('../../../shared/images/Building.svg');
+	display: flex;
+	justify-content: center;
+	.infoBlock {
+		gap: 16px;
+		padding: 26px 18px;
+		margin-top: 140px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 186px;
+		height: 292px;
+		border-radius: 4px;
+		background: var(--background-main-bg, #fff);
+		h2 {
+			color: #000;
+			font-size: 22px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 28px; /* 127.273% */
+		}
+		.desc {
+			color: #000;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 500;
+			line-height: 20px; /* 142.857% */
+		}
+		.showButton {
+			border-radius: 8px;
+			background: #006d39;
+			color: white;
+			padding: 10px 24px;
+		}
+	}
+}

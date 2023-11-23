@@ -1,0 +1,174 @@
+.MainFilter {
+	width: 100%;
+	height: 488px;
+	// background-image: url('../../../../shared/images/MainFilterBg.svg');
+	background-image: url(https://cdn.esoft.digital/content/cluster/media/aa/98/52/58a19f65cf9ea4102d19c33d7b0480e7ae5298aa.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+
+	h1 {
+		width: 566px;
+		color: var(--background-main-bg, #fff);
+		text-align: center;
+		text-shadow: 40px 4px 4px rgba(0, 0, 0, 0.25);
+		font-size: 36px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 44px; /* 122.222% */
+	}
+	.filterBlock {
+		position: relative;
+		max-width: 920px;
+		width: 100%;
+		background: var(--bg-color);
+		border-radius: 8px;
+		.actionBlock {
+			position: absolute;
+			bottom: -58px;
+			right: 0px;
+			display: flex;
+			align-items: center;
+			gap: 20px;
+			.createButton {
+				padding: 10px 24px;
+				border-radius: 24px;
+			}
+			.searchButton {
+				padding: 10px 24px;
+				background: var(--primary-color);
+				color: #fff;
+				border: none;
+			}
+		}
+
+		.sortBlock {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 14px;
+			gap: 12px;
+			.firstCategory {
+				width: 100%;
+				align-items: center;
+				justify-content: space-between;
+				display: flex;
+				padding: 0px 20px;
+				.catButn {
+					padding: 6px 12px;
+					text-align: center;
+					font-size: 14px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 20px; /* 142.857% */
+				}
+				.filterIcon {
+					color: var(--material-theme-sys-primary);
+					fill: var(--material-theme-sys-primary);
+					display: flex;
+					align-items: center;
+					cursor: pointer;
+					transition: all 0.3s;
+					width: 32px;
+					height: 32px;
+					padding: 4px;
+					border-radius: 1px;
+					&:hover {
+						fill: var(--material-theme-sys-primary);
+						scale: 1.1;
+						border-radius: 8px;
+						background: var(--material-theme-sys-secondary-container);
+					}
+				}
+			}
+			.secondCategory {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				width: 100%;
+				padding: 0px 20px;
+				.roomsCategory {
+					//display: flex;
+					//flex-direction: column;
+					//gap: 2px;
+					//p {
+					//	color: var(--main-text);
+					//	text-align: start;
+					//	font-size: 11px;
+					//	font-style: normal;
+					//	font-weight: 400;
+					//	line-height: 16px; /* 145.455% */
+					//}
+					//.numButtons {
+					//	display: flex;
+					//	gap: 2px;
+					//	.num {
+					//		display: flex;
+					//		padding: 6px 10px;
+					//		justify-content: center;
+					//		align-items: center;
+					//		gap: 8px;
+					//	}
+					//}
+					.roomInput {
+						max-width: 96px;
+						padding: 8px 11px;
+						color: #414941;
+						text-align: center;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 16px; /* 133.333% */
+						border-radius: 8px 0px 0px 8px;
+					}
+					.roomInputRight {
+						max-width: 96px;
+						padding: 8px 11px;
+						color: #414941;
+						text-align: center;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 16px; /* 133.333% */
+						border-radius: 0px 8px 8px 0px;
+						border-left: 0px;
+					}
+				}
+				.roomsCategorySolo {
+					height: 52px;
+					display: flex;
+					align-items: end;
+					.address {
+						border-radius: 8px;
+						border: 1px solid #717971;
+						display: flex;
+						width: 226px;
+						padding: 8px 11px;
+						justify-content: flex-end;
+						align-items: end;
+						gap: 10px;
+						text-align: center;
+						font-size: 12px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 16px; /* 133.333% */
+					}
+					.choseInMap {
+						border-radius: 8px;
+						height: 34px;
+						padding: 6px 11px;
+						color: var(--disabled-text);
+						text-align: center;
+						font-size: 14px;
+						font-style: normal;
+						font-weight: 500;
+						line-height: 20px; /* 142.857% */
+					}
+				}
+			}
+		}
+	}
+}

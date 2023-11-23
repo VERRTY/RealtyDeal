@@ -1,0 +1,33 @@
+.SearchCart {
+	max-width: 920px;
+	width: 100%;
+	height: 186px;
+	background-image: url('../../../shared/images/cart.svg');
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding: 22px;
+	h2 {
+		color: #000;
+		font-size: 28px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 114%; /* 31.92px */
+		letter-spacing: 0.84px;
+	}
+	p {
+		color: #000;
+		max-width: 348px;
+		width: 100%;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 20px; /* 142.857% */
+		text-align: center;
+	}
+	.searchButton {
+		padding: 10px 24px;
+		border-radius: 100px;
+	}
+}

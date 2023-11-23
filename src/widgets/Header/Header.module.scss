@@ -1,0 +1,85 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.header {
+  padding: 20px 0;
+}
+
+.headerItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 100px;
+  width: 100%;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  column-gap: 36px;
+}
+
+.headerLogo {
+  font-size: 40px;
+  color: var(--matrial-theme-def-green);
+}
+
+.headerBut {
+  width: 100%;
+  display: flex;
+  gap: 4px;
+  padding: 10px 24px 10px 16px;
+  border-radius: 25px;
+}
+
+.headerLeft {
+  max-height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.headerLangItems {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 12px 8px;
+}
+
+.headerLangChange {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--matrial-theme-def-green);
+}
+
+.headerChevron {
+  color: var(--matrial-theme-def-green);
+}
+
+.headerHeart * {
+  fill: var(--matrial-theme-def-green);
+  width: 24px;
+  height: 24px;
+}
+
+.headerAdd {
+  padding: 6px 12px 6px 8px;
+  background-color: var(--material-theme-sys-secondary-container);
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.headerUserBut {
+  display: flex;
+  padding: 4px 12px 4px 4px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 25px;
+}

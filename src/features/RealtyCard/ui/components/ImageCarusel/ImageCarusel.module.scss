@@ -1,0 +1,21 @@
+.ImageCarusel {
+	max-width: 218.8px;
+	width: 100%;
+	flex-shrink: 0;
+	height: 134.4px;
+	.mySwiper {
+		width: 100%;
+		.slide {
+			width: 100%;
+			flex-shrink: 0;
+			height: 100%;
+			.image {
+				display: block;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+				border-radius: 6.6px 6.6px 0px 0px;
+			}
+		}
+	}
+}

@@ -1,0 +1,130 @@
+.DefCard {
+	display: flex;
+	width: 222px;
+	width: 100%;
+	max-height: 244px;
+	height: 100%;
+	border-radius: 8px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid #a4a4a4ad;
+	transition: all 0.4s;
+	&:hover {
+		scale: 1.004;
+		box-shadow: var(--shadow-gray) 0px 3px 8px;
+	}
+	.imageBlock {
+		width: 218.8px;
+		flex-shrink: 0;
+		max-height: 134.6px;
+		height: 100%;
+		position: relative;
+		.status {
+			position: absolute;
+			top: 12px;
+			left: 12px;
+			z-index: 40;
+		}
+
+		.defHeart {
+			position: absolute;
+			top: 12px;
+			right: 12px;
+			z-index: 40;
+			color: var(--matrial-theme-def-green);
+			transition: all 0.3s;
+			&:hover {
+				scale: 1.1;
+			}
+		}
+
+		.likedHeart {
+			position: absolute;
+			top: 12px;
+			right: 12px;
+			z-index: 40;
+			color: var(--heart-like-border);
+			transition: all 0.3s;
+			&:hover {
+				scale: 0.9;
+			}
+		}
+
+		.image {
+			max-height: 134.6px;
+			transition: all 0.3s;
+			display: block;
+			width: 100%;
+			object-fit: cover;
+			border-radius: 6.6px 6.6px 0px 0px;
+		}
+	}
+	.infoBlock {
+		display: flex;
+		height: 104px;
+		padding: 0px 16px 8px 16px;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 4px;
+		flex-shrink: 0;
+		align-self: stretch;
+		.info {
+			.price {
+				color: var(--matrial-theme-def-green);
+				font-family: 'Roboto';
+				font-size: 14px;
+				font-style: normal;
+				font-weight: 500;
+				line-height: 20px;
+			}
+			.dataInf {
+				color: var(--font-gray-def);
+				font-family: 'Roboto';
+				font-size: 12px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 16px;
+				.rooms {
+					font-family: 'Roboto';
+					color: var(--matrial-theme-def-green);
+				}
+			}
+			.street {
+				font-family: 'Roboto';
+				color: var(--font-gray-def);
+				font-size: 11px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 16px;
+			}
+		}
+		.call {
+			height: 30px;
+			font-size: 12px;
+			padding: 8px;
+			border-radius: 50px;
+			color: var(--matrial-theme-def-green);
+			.phone {
+				fill: var(--matrial-theme-def-green);
+			}
+		}
+	}
+}
+
+// @media (min-width: 768px) {
+// 	.DefCard {
+// 		background: red;
+// 		max-width: 400px;
+// 		max-height: 500px;
+// 		.imageBlock {
+// 			max-width: 398px;
+// 			max-height: 400px;
+// 			.image {
+// 				max-width: 398px;
+// 				max-height: 400px;
+// 			}
+// 		}
+// 	}
+// }

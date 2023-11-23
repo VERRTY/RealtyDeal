@@ -1,0 +1,34 @@
+:root {
+	--font-family-main: ;
+	--font-size-s: 14px;
+	--font-line-s: 17.5px;
+	--font-s: var(--font-size-s) / var(--font-line-m) var(--font-family-main);
+	--font-size-m: 16px;
+	--font-line-m: 16px;
+	--font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+	--font-size-l: 18px;
+	--font-line-l: 21.6px;
+	--font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+	// Размеры
+	--navbar-height: 50px;
+	--sidebar-width: 300px;
+	--sidebar-width-collapsed: 80px;
+
+	// z - Индексы
+	--modal-z-index: 10;
+
+	// Цвета
+	--text-primary: #1c2129;
+	--text-primary-50: var(--text-primary, rgba(28, 33, 41, 0.5));
+	--text-secondary: #626c80;
+	--success: #12b262;
+	--error: #e55050;
+	--brand: #0066ff;
+	--fill-primary: #16014d;
+	--surface: #fff7da;
+	--stroke: #5f6875;
+	--fill-secondary: #ff772a;
+	--background-main-bg: #fff;
+	--material-theme-sys-primary: #00391b;
+}

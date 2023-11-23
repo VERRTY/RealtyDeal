@@ -1,0 +1,14 @@
+.filterFlatsInput:nth-child(1) {
+    border-right: 2px solid var(--material-theme-sys-primary);
+}
+
+.filterFlatsInput {
+    padding: 10px 11px;
+    background-color: transparent;
+    color: var(--inverted-bg-color);
+    width: 126px;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}

@@ -1,0 +1,126 @@
+// Advertising Blog
+.advert {
+	.advertWrap {
+		display: flex;
+		flex-direction: column;
+		row-gap: 27px;
+
+		.advertItems {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 2fr;
+			width: 100%;
+			gap: 9px;
+			align-items: center;
+
+			.advertItem {
+				display: flex;
+				border: 1px solid var(--inverted-bg-color);
+				border-radius: 5px;
+				width: 100%;
+				height: 153px;
+				// flex-direction: row-reverse;
+
+				.advertImage {
+					border-right: 2px solid var(--material-theme-sys-light-outline);
+					flex: 1;
+				}
+
+				.advertInfo {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					margin-left: 21px;
+					flex: 1;
+
+					.advertTitle {
+						font-size: 14px;
+						font-weight: 500;
+						line-height: 20px;
+						color: var(--inverted-bg-color);
+					}
+
+					.advertUl {
+						display: flex;
+						flex-direction: column;
+						row-gap: 3px;
+						list-style-type: none;
+
+						.advertText {
+							font-size: 12px;
+							font-weight: 400;
+							line-height: 16px;
+							color: var(--material-theme-sys-primary);
+
+							.advertTotal {
+								color: var(--material-theme-sys-light-outline);
+							}
+						}
+					}
+				}
+				.advertInfoTitle {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					grid-template-rows: auto;
+					align-items: center;
+				}
+				.advertInfoList {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					grid-template-rows: auto;
+				}
+			}
+
+			.advertItem:nth-child(3n) .advertImage {
+				order: 2;
+			}
+
+			.advertItem:nth-child(1n + 3) .advertImage {
+				order: 1;
+			}
+
+			.advertItemInfo1 {
+				border: none;
+			}
+		}
+
+		// Banner
+		.banner {
+			display: flex;
+			position: relative;
+
+			.bannerItems {
+				display: flex;
+				gap: 5px;
+				flex-direction: column;
+				justify-content: flex-end;
+				position: absolute;
+				right: 0;
+				top: 17px;
+				margin-right: 53px;
+
+				.bannerTitle {
+					font-size: 28px;
+					font-weight: 400;
+					line-height: 36px;
+					color: var(--bg-color);
+				}
+
+				.bannerBtn {
+					display: flex;
+					padding: 10px 24px;
+					align-self: flex-end;
+					border-radius: 22px;
+					margin-top: 60px;
+					max-width: 126px;
+					height: auto;
+
+					text-align: center;
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+}
